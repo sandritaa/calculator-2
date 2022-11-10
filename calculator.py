@@ -22,15 +22,6 @@ while not quit_cal:
         add_cal = add(float(tokenized_input[1]), float(tokenized_input[2]))
         print(add_cal)
 
-    # elif tokenized_input[0] == '+':
-    #     exam = float(tokenized_input)
-    #     total = reduce(add, tokenized_input)
-    #     add_cal = (float(tokenized_input[1]), float(tokenized_input[2]))
-    #     total = reduce(add, tokenized_input)
-    #     print(total)
-    #     add_cal = reduce(
-    #     add(float(tokenized_input[1]), float(tokenized_input[2])))
-
     elif tokenized_input[0] == '-':
         subtract_cal = subtract(
             float(tokenized_input[1]), float(tokenized_input[2]))
